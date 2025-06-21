@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python train_envelope.py --CLstrategy "tcil" --CLstep 1 --pretrained_model True --ckpt_file "./log/train_step_0/pretrain.pth" --test_name "tcil_step_1"

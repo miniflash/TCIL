@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=1 python test.py --CLstep 2 --pretrained_model True --ckpt_file "./log/train_tcil_step_2/val_best.pth" --test_name "tcil_result"

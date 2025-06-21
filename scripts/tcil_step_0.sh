@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python train.py --CL True --setup "Sequential" --CLstep 0 --test_name "tcil_step_0"
